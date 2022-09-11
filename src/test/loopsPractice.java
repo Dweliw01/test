@@ -52,12 +52,12 @@ public class loopsPractice {
 //		
 //		} while (!(ans.equals("no") || (ans.equals("yes"))));
 
-		/**********************************************************************
+		/************************************************************************************
 		 * Problem 5: Given following code: int count = 0; for (int x = 10; x <= 20; x
 		 * += 2) { System.out.println(x); for(int y = x; y >= 0; y -= 1) { count = count
 		 * + 1; System.out.println(x); } } Rewrite the code using while instead of for .
 		 * What is the final value of count?
-		 */
+		 ***********************************************************************************/
 //
 //	
 //		int num = 10;
@@ -171,6 +171,9 @@ public class loopsPractice {
 		 * 
 		 * Enter a word: omar Output: 
 		 * false
+		 * 
+		 * 
+		 * 
 		 * ***************************************************************************************************/
 
 //			System.out.println(isAbecedarian("acknow"));
