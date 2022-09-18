@@ -135,18 +135,18 @@ public class loopsPractice {
 		 * Example: Enter hours traveled: 5 Enter vehicle speed: 25 Hour Distance
 		 * Traveled 1 25 2 50
 		 **************************************************************************************************/
-//		
-//		Scanner input = new Scanner(System.in);
-//		System.out.println("what was the hours traveled");
-//		int hours = input.nextInt();
-//		System.out.println("what was the speed of the vechicle");
-//		double speed = input.nextDouble();
-//		System.out.println("Hour" + "\t" + "Distance Traveled");
-//		for (int i = 1; i <= hours; i++) {
-//
-//			System.out.println(i + "\t" + getDistance(speed, i));
-//
-//		}
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("what was the hours traveled");
+		int hours = input.nextInt();
+		System.out.println("what was the speed of the vechicle");
+		double speed = input.nextDouble();
+		System.out.println("Hour" + "\t" + "Distance Traveled");
+		for (int i = 1; i <= hours; i++) {
+
+			System.out.println(i + "\t" + getDistance(speed, i));
+
+		}
 		
 		
 		/************************************************************************************************************
