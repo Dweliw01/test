@@ -35,9 +35,11 @@ public class ForArraySubstringReverseSentence {
 
 		for (int i = reverse.length - 1; i >= 0; i--) {
 
-			str_reverse += reverse[i] + " ";
+			str_reverse += reverse[i] + "\n";
+		
 		}
 		System.out.println(str_reverse);
+
 
 	}
 
